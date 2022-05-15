@@ -1,0 +1,5352 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "t2340"
+	},
+	"FUNCTIONS": {
+		"0000": [
+			{
+				"LABEL": "0x178",
+				"TYPE": "RETURN"
+			}
+		],
+		"PreInit": [
+			{
+				"LABEL": "0x17c",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Change_MapColor"
+				]
+			},
+			{
+				"LABEL": "0x191",
+				"TYPE": "0xA2",
+				"CONTROL": 0,
+				"UNK": "00"
+			},
+			{
+				"LABEL": "0x194",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init": [
+			{
+				"LABEL": "0x198",
+				"TYPE": "0xE",
+				"UNK": "08000000"
+			},
+			{
+				"LABEL": "0x19d",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0x1ab",
+				"TYPE": "0x7C",
+				"CONTROL": -1,
+				"UNK": "00000000000000000000FFFF000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init_Replay": [
+			{
+				"LABEL": "0x1c8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x1db"
+			},
+			{
+				"LABEL": "0x1d6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x1db",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x1ee"
+			},
+			{
+				"LABEL": "0x1e9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x1ee",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x201"
+			},
+			{
+				"LABEL": "0x1fc",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x201",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x214"
+			},
+			{
+				"LABEL": "0x20f",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x214",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							4
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x227"
+			},
+			{
+				"LABEL": "0x222",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x227",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							5
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x23a"
+			},
+			{
+				"LABEL": "0x235",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x23a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							6
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x248"
+			},
+			{
+				"LABEL": "0x248",
+				"TYPE": "RETURN"
+			}
+		],
+		"Reinit": [
+			{
+				"LABEL": "0x24c",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Npc_Table"
+				]
+			},
+			{
+				"LABEL": "0x258",
+				"TYPE": "0xA2",
+				"CONTROL": 0,
+				"UNK": "01"
+			},
+			{
+				"LABEL": "0x25b",
+				"TYPE": "RETURN"
+			}
+		],
+		"Npc_Table": [
+			{
+				"LABEL": "0x25c",
+				"TYPE": "0xA1",
+				"CONTROL": 2,
+				"UNK": "03FD22FB25F127000000000000000000000000000000000000000000000000"
+			},
+			{
+				"LABEL": "0x27d",
+				"TYPE": "0xA1",
+				"CONTROL": 3,
+				"UNK": "0000803FCDCCCC3FEC51B83D"
+			},
+			{
+				"LABEL": "0x28b",
+				"TYPE": "0xA1",
+				"CONTROL": 0,
+				"UNK": "911400000200000000000000000000000000"
+			},
+			{
+				"LABEL": "0x29f",
+				"TYPE": "0xA1",
+				"CONTROL": 3,
+				"UNK": "0000803FCDCCCC3FEC51B83D"
+			},
+			{
+				"LABEL": "0x2ad",
+				"TYPE": "0xA1",
+				"CONTROL": 0,
+				"UNK": "971400640264000000000000000000000000"
+			},
+			{
+				"LABEL": "0x2c1",
+				"TYPE": "0xA1",
+				"CONTROL": 3,
+				"UNK": "0000803FCDCCCC3FEC51B83D"
+			},
+			{
+				"LABEL": "0x2cf",
+				"TYPE": "0xA1",
+				"CONTROL": 0,
+				"UNK": "981400646464000000000000000000000000"
+			},
+			{
+				"LABEL": "0x2e3",
+				"TYPE": "0xA1",
+				"CONTROL": 3,
+				"UNK": "0000803FCDCCCC3F8FC2F53C"
+			},
+			{
+				"LABEL": "0x2f1",
+				"TYPE": "0xA1",
+				"CONTROL": 0,
+				"UNK": "991400646464000000000000000000000000"
+			},
+			{
+				"LABEL": "0x305",
+				"TYPE": "0xA1",
+				"CONTROL": 3,
+				"UNK": "0000803FCDCCCC3FEC51B83D"
+			},
+			{
+				"LABEL": "0x313",
+				"TYPE": "0xA1",
+				"CONTROL": 0,
+				"UNK": "070001000200000000000000000000000000"
+			},
+			{
+				"LABEL": "0x327",
+				"TYPE": "0xA1",
+				"CONTROL": 1
+			},
+			{
+				"LABEL": "0x329",
+				"TYPE": "RETURN"
+			}
+		],
+		"fie_setting": [
+			{
+				"LABEL": "0x32c",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 33,
+						"UNK": "FEFF09"
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							2
+						],
+						"TO_LABEL": "0x33d"
+					}
+				],
+				"TO_LABEL": "0x3a9"
+			},
+			{
+				"LABEL": "0x33d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							9724
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x39d"
+			},
+			{
+				"LABEL": "0x347",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10840
+						]
+					}
+				],
+				"TO_LABEL": "0x37e"
+			},
+			{
+				"LABEL": "0x350",
+				"TYPE": "0x2E",
+				"UNK": "FEFF5C8F26410000000048E13A409A993742"
+			},
+			{
+				"LABEL": "0x363",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x366",
+				"TYPE": "0x3C",
+				"UNK": "FEFF000000000000A0C10000000000000000"
+			},
+			{
+				"LABEL": "0x379",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x398"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "0x2B",
+				"UNK": "FEFF01000000"
+			},
+			{
+				"LABEL": "0x385",
+				"TYPE": "0x2E",
+				"UNK": "FEFF00007A4400007A440000000000000000"
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3a4"
+			},
+			{
+				"LABEL": "0x39d",
+				"TYPE": "0x2B",
+				"UNK": "FEFF01000000"
+			},
+			{
+				"LABEL": "0x3a4",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3a9"
+			},
+			{
+				"LABEL": "0x3a9",
+				"TYPE": "RETURN"
+			}
+		],
+		"poo_setting": [
+			{
+				"LABEL": "0x3ac",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 33,
+						"UNK": "FEFF09"
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							2
+						],
+						"TO_LABEL": "0x3bd"
+					}
+				],
+				"TO_LABEL": "0x3d5"
+			},
+			{
+				"LABEL": "0x3bd",
+				"TYPE": "0x2E",
+				"UNK": "FEFF52B822410000000085EBD1BF6666DA42"
+			},
+			{
+				"LABEL": "0x3d0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3d5"
+			},
+			{
+				"LABEL": "0x3d5",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_poo": [
+			{
+				"LABEL": "0x3d8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10225
+						]
+					}
+				],
+				"TO_LABEL": "0x3e6"
+			},
+			{
+				"LABEL": "0x3e1",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x647"
+			},
+			{
+				"LABEL": "0x3e6",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							9723
+						]
+					}
+				],
+				"TO_LABEL": "0x63e"
+			},
+			{
+				"LABEL": "0x3ef",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x404",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x407",
+				"TYPE": "0x4A",
+				"CONTROL": 48,
+				"UNK": "40040000"
+			},
+			{
+				"LABEL": "0x40d",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x411",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x5a8"
+			},
+			{
+				"LABEL": "0x41b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x428",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x42b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"*cough* W-We're all facing tough times,",
+						"NEW_LINE",
+						"as you know... The war certainly is taking",
+						"NEW_LINE",
+						"its toll...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Surely you'd be willing to extend the",
+						"NEW_LINE",
+						"deadline on the final 20,000 mira for",
+						"NEW_LINE",
+						"me in light of that...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x4fe",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x4ff",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 5271,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x50c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x50f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 5271,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh, didn't you hear? Kreuzen's no longer",
+						"NEW_LINE",
+						"a part of the war.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x563",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "0x2D",
+				"CONTROL": 9,
+				"UNK": "0AD7A33C0AD7A33C0000003F"
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x57f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"#6S?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x59f",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x5a0",
+				"TYPE": "0xC",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5a3",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x639"
+			},
+			{
+				"LABEL": "0x5a8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x5b5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5b8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"U-Umm, well... C-Certainly it couldn't",
+						"NEW_LINE",
+						"hurt to wait just a little bit longer...?!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Please, have mercy on this poor noble...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x638",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x639",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x647"
+			},
+			{
+				"LABEL": "0x63e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							8957
+						]
+					}
+				],
+				"TO_LABEL": "0x647"
+			},
+			{
+				"LABEL": "0x647",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x649",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Party_Face_Reset2"
+				]
+			},
+			{
+				"LABEL": "0x660",
+				"TYPE": "0x4A",
+				"CONTROL": 46
+			},
+			{
+				"LABEL": "0x662",
+				"TYPE": "0x4A",
+				"CONTROL": 54
+			},
+			{
+				"LABEL": "0x664",
+				"TYPE": "RETURN"
+			}
+		],
+		"letra_setting": [
+			{
+				"LABEL": "0x668",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 33,
+						"UNK": "FEFF09"
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							2
+						],
+						"TO_LABEL": "0x67f"
+					},
+					{
+						"UNK": [
+							100
+						],
+						"TO_LABEL": "0x709"
+					}
+				],
+				"TO_LABEL": "0x74c"
+			},
+			{
+				"LABEL": "0x67f",
+				"TYPE": "0x2E",
+				"UNK": "FEFF14AE4341000000008FC215C09A999043"
+			},
+			{
+				"LABEL": "0x692",
+				"TYPE": "0x24",
+				"CONTROL": 8,
+				"UNK": "FEFF00",
+				"STRINGS": [
+					"AniEvUdegumiF",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			{
+				"LABEL": "0x6b4",
+				"TYPE": "0x30",
+				"UNK0": "FEFF00",
+				"STRINGS": [
+					"AniEvUdegumiF"
+				],
+				"UNK1": "000000000000803F01000000"
+			},
+			{
+				"LABEL": "0x6d2",
+				"TYPE": "0x2B",
+				"UNK": "FEFF40000000"
+			},
+			{
+				"LABEL": "0x6d9",
+				"TYPE": "0x57",
+				"STRINGS": [
+					"TK_letra"
+				],
+				"UNK": "0B9714000060400000000000000000000000000000000000000000000000000700"
+			},
+			{
+				"LABEL": "0x704",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x74c"
+			},
+			{
+				"LABEL": "0x709",
+				"TYPE": "0x2E",
+				"UNK": "FEFF14AE4341000000008FC215C000809D43"
+			},
+			{
+				"LABEL": "0x71c",
+				"TYPE": "0x57",
+				"STRINGS": [
+					"TK_letra"
+				],
+				"UNK": "0B9714000060400000000000000000000000000000000000000000000000000700"
+			},
+			{
+				"LABEL": "0x747",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x74c"
+			},
+			{
+				"LABEL": "0x74c",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_letra": [
+			{
+				"LABEL": "0x750",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x765",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x768",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x76c",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x775",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 14
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0xeaa"
+			},
+			{
+				"LABEL": "0x784",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					0,
+					0
+				],
+				"UNK": "000000000042"
+			},
+			{
+				"LABEL": "0x78d",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					1,
+					0
+				],
+				"STRINGS": [
+					"Talk"
+				],
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x79f",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					1,
+					0
+				],
+				"STRINGS": [
+					"Shop"
+				],
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x7b4",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					1,
+					0
+				],
+				"STRINGS": [
+					"Leave"
+				],
+				"UNK": "0200"
+			},
+			{
+				"LABEL": "0x7c3",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					2,
+					0
+				],
+				"UNK": "01FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x7cc",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					4,
+					0
+				],
+				"UNK": "00"
+			},
+			{
+				"LABEL": "0x7d0",
+				"TYPE": "0x6B",
+				"CONTROLS": [
+					3,
+					0
+				]
+			},
+			{
+				"LABEL": "0x7d3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x7ef"
+			},
+			{
+				"LABEL": "0x7e1",
+				"TYPE": "0x73",
+				"UNK": "3A0084AE0A000000"
+			},
+			{
+				"LABEL": "0x7ea",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0x7ef",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x80c"
+			},
+			{
+				"LABEL": "0x7fd",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 14
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x807",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0x80c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0x81a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10225
+						]
+					}
+				],
+				"TO_LABEL": "0xa35"
+			},
+			{
+				"LABEL": "0x823",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x940"
+			},
+			{
+				"LABEL": "0x82d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x83a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x83d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Thank the kind Goddess in the sky above!",
+						"NEW_LINE",
+						"Lord Jusis decided to abolish all the tax",
+						"NEW_LINE",
+						"hikes.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Life shouldn't be nearly as rough from",
+						"NEW_LINE",
+						"here on out now.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"All that's left is for the war to come to",
+						"NEW_LINE",
+						"an end, then things'll be back to normal!",
+						"NEW_LINE",
+						"...If only it were that simple...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x937",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x938",
+				"TYPE": "0xC",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x93b",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xa30"
+			},
+			{
+				"LABEL": "0x940",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x94d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x950",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It's a relief knowing we don't have to",
+						"NEW_LINE",
+						"deal with those taxes anymore.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I guess I can see it in my heart to give",
+						"NEW_LINE",
+						"that poor baron a bit of a discount now",
+						"NEW_LINE",
+						"that they're gone.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I'd hate to see him get more depressed",
+						"NEW_LINE",
+						"than he already is.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xa2f",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xa30",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0xa35",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							9723
+						]
+					}
+				],
+				"TO_LABEL": "0xc4e"
+			},
+			{
+				"LABEL": "0xa3e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xb93"
+			},
+			{
+				"LABEL": "0xa48",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0xa55",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa58",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"This poor noble here's been asking for",
+						"NEW_LINE",
+						"loan extensions for half a year now.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Well, he's better than the ones who use",
+						"NEW_LINE",
+						"their position to avoid paying at all.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I'm not exactly raking the mira in here",
+						"NEW_LINE",
+						"myself, but I kinda feel sorry for him.",
+						"NEW_LINE",
+						"It couldn't hurt to let him off the hook",
+						"NEW_LINE",
+						"just a bit...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb8a",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb8b",
+				"TYPE": "0xC",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xb8e",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc49"
+			},
+			{
+				"LABEL": "0xb93",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0xba0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xba3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I'd be willing to be a bit more lenient",
+						"NEW_LINE",
+						"if these taxes weren't an issue.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Least I can do is give him an extra",
+						"NEW_LINE",
+						"month.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc48",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc49",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0xc4e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							8957
+						]
+					}
+				],
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0xc57",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xdeb"
+			},
+			{
+				"LABEL": "0xc61",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0xc6e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xc71",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It's amazing just how popular that new",
+						"NEW_LINE",
+						"girl at Alouette's become.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"The provincial army had their sights on",
+						"NEW_LINE",
+						"her for some reason.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Horrible, isn't it? The fact that a girl like",
+						"NEW_LINE",
+						"her was being targeted just shows how",
+						"NEW_LINE",
+						"awful war is.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"No worries, though! We'll keep her safe!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xde2",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xde3",
+				"TYPE": "0xC",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xde6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xea5"
+			},
+			{
+				"LABEL": "0xdeb",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0xdf8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xdfb",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Taxes have made life rough, but that",
+						"NEW_LINE",
+						"won't stop us from doing what we can",
+						"NEW_LINE",
+						"for her.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Here's hoping she's actually willing to",
+						"NEW_LINE",
+						"ask if she ever needs anything, right?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xea4",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xea5",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x775"
+			},
+			{
+				"LABEL": "0xeaa",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xeac",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Party_Face_Reset2"
+				]
+			},
+			{
+				"LABEL": "0xec3",
+				"TYPE": "0x4A",
+				"CONTROL": 46
+			},
+			{
+				"LABEL": "0xec5",
+				"TYPE": "0x4A",
+				"CONTROL": 54
+			},
+			{
+				"LABEL": "0xec7",
+				"TYPE": "RETURN"
+			}
+		],
+		"gazel_setting": [
+			{
+				"LABEL": "0xec8",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 33,
+						"UNK": "FEFF09"
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							100
+						],
+						"TO_LABEL": "0xed9"
+					}
+				],
+				"TO_LABEL": "0xf3a"
+			},
+			{
+				"LABEL": "0xed9",
+				"TYPE": "0x2E",
+				"UNK": "FEFF0000C0C000004040000080BF00008743"
+			},
+			{
+				"LABEL": "0xeec",
+				"TYPE": "0x24",
+				"CONTROL": 8,
+				"UNK": "FEFF00",
+				"STRINGS": [
+					"AniEvRyoteKosi",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			{
+				"LABEL": "0xf0f",
+				"TYPE": "0x30",
+				"UNK0": "FEFF00",
+				"STRINGS": [
+					"AniEvRyoteKosi"
+				],
+				"UNK1": "000000000000803F01000000"
+			},
+			{
+				"LABEL": "0xf2e",
+				"TYPE": "0x2B",
+				"UNK": "FEFF40000000"
+			},
+			{
+				"LABEL": "0xf35",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf3a"
+			},
+			{
+				"LABEL": "0xf3a",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_gazel": [
+			{
+				"LABEL": "0xf3c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10225
+						]
+					}
+				],
+				"TO_LABEL": "0x11ab"
+			},
+			{
+				"LABEL": "0xf45",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0xf5a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf5d",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0xf61",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x10b3"
+			},
+			{
+				"LABEL": "0xf6b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0xf78",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf7b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Gotta laugh at the nobles acting all",
+						"NEW_LINE",
+						"worried about those Heimdallr rumors.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Must be nice when that's the only thing",
+						"NEW_LINE",
+						"you need to be concerned about.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Meanwhile, the rest of us are still",
+						"NEW_LINE",
+						"struggling to make a damn living.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Hey, maybe they should try working",
+						"NEW_LINE",
+						"instead! Might help them take their",
+						"NEW_LINE",
+						"minds off everything.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x10aa",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x10ab",
+				"TYPE": "0xC",
+				"UNK": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x10ae",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x11a6"
+			},
+			{
+				"LABEL": "0x10b3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x10c0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x10c3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Damn nobles crying over one little rumor",
+						"NEW_LINE",
+						"without realizing how lucky they have it.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Meanwhile, the rest of us are struggling",
+						"NEW_LINE",
+						"to make a living here!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x11a5",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x11a6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x17e0"
+			},
+			{
+				"LABEL": "0x11ab",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							9723
+						]
+					}
+				],
+				"TO_LABEL": "0x155e"
+			},
+			{
+				"LABEL": "0x11b4",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x11c9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x11cc",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x11d0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10706
+						]
+					}
+				],
+				"TO_LABEL": "0x1312"
+			},
+			{
+				"LABEL": "0x11d9",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x11e6",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x11e9",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Y'know, I'm gonna miss Colette when she",
+						"NEW_LINE",
+						"goes. She was a big help to have around.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"She's a little ditzy, but you're not gonna",
+						"NEW_LINE",
+						"find many as sweet as her.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I know it ain't much, but can you make",
+						"NEW_LINE",
+						"sure she gets the most out of that gift",
+						"NEW_LINE",
+						"I gave her?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x130c",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x130d",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1559"
+			},
+			{
+				"LABEL": "0x1312",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1496"
+			},
+			{
+				"LABEL": "0x131c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1329",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x132c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Yeah, I heard about what happened to the",
+						"NEW_LINE",
+						"duke. Fair's fair, really.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Can't just let someone who put the people",
+						"NEW_LINE",
+						"of Celdic through hell run free, can we?",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Nobles're just people in the end.",
+						"NEW_LINE",
+						"They ain't exempt from Aidios' judgment.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"And if he fooled himself into thinking",
+						"NEW_LINE",
+						"otherwise, then he had it coming!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x148d",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x148e",
+				"TYPE": "0xC",
+				"UNK": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x1491",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1559"
+			},
+			{
+				"LABEL": "0x1496",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x14a3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x14a6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Well, it's a good thing Lord Jusis ended",
+						"NEW_LINE",
+						"up being the one to bring him in.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"He's gonna have to sit tight for now!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1558",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1559",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x17e0"
+			},
+			{
+				"LABEL": "0x155e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							8957
+						]
+					}
+				],
+				"TO_LABEL": "0x17e0"
+			},
+			{
+				"LABEL": "0x1567",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x157c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x157f",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x1583",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x16e6"
+			},
+			{
+				"LABEL": "0x158d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x159a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x159d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Just when you thought things couldn't",
+						"NEW_LINE",
+						"get worse, they hit you with these damn",
+						"NEW_LINE",
+						"taxes!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Plus, we've gotta deal with the nobles",
+						"NEW_LINE",
+						"prancing around like everything's all",
+						"NEW_LINE",
+						"fine and dandy...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Is that their job or something? To take",
+						"NEW_LINE",
+						"our mira from us and live the good life?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x16dd",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x16de",
+				"TYPE": "0xC",
+				"UNK": [
+					2
+				]
+			},
+			{
+				"LABEL": "0x16e1",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x17e0"
+			},
+			{
+				"LABEL": "0x16e6",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x16f3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x16f6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"You'd think they'd have the decency to",
+						"NEW_LINE",
+						"pay us what they owe if they've got the",
+						"NEW_LINE",
+						"time to celebrate all day long.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Life ain't easy for us right now, lemme",
+						"NEW_LINE",
+						"tell you.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x17df",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x17e0",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x17e2",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Party_Face_Reset2"
+				]
+			},
+			{
+				"LABEL": "0x17f9",
+				"TYPE": "0x4A",
+				"CONTROL": 46
+			},
+			{
+				"LABEL": "0x17fb",
+				"TYPE": "0x4A",
+				"CONTROL": 54
+			},
+			{
+				"LABEL": "0x17fd",
+				"TYPE": "RETURN"
+			}
+		],
+		"torli_setting": [
+			{
+				"LABEL": "0x1800",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 33,
+						"UNK": "FEFF09"
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							100
+						],
+						"TO_LABEL": "0x1811"
+					}
+				],
+				"TO_LABEL": "0x1829"
+			},
+			{
+				"LABEL": "0x1811",
+				"TYPE": "0x2E",
+				"UNK": "FEFF0000A0C000004040000070C000003443"
+			},
+			{
+				"LABEL": "0x1824",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1829"
+			},
+			{
+				"LABEL": "0x1829",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_torli": [
+			{
+				"LABEL": "0x182c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10225
+						]
+					}
+				],
+				"TO_LABEL": "0x19c6"
+			},
+			{
+				"LABEL": "0x1835",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x184a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x184d",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x1851",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1939"
+			},
+			{
+				"LABEL": "0x185b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1868",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x186b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Huh? Is the war not over yet?",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Nobles really have a lot of free time.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I bet there wouldn't be any war if they",
+						"NEW_LINE",
+						"had actual work to do instead!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1930",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1931",
+				"TYPE": "0xC",
+				"UNK": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x1934",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x19c1"
+			},
+			{
+				"LABEL": "0x1939",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1946",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1949",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Another busy day in the life of Turi.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Maybe the nobles should learn from me!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x19c0",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x19c1",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1ee0"
+			},
+			{
+				"LABEL": "0x19c6",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							9723
+						]
+					}
+				],
+				"TO_LABEL": "0x1c8b"
+			},
+			{
+				"LABEL": "0x19cf",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x19e4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x19e7",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x19eb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							10706
+						]
+					}
+				],
+				"TO_LABEL": "0x1b35"
+			},
+			{
+				"LABEL": "0x19f4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1a01",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1a04",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"The charm Colette gave me's so pretty!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"...This is the first time I've been given",
+						"NEW_LINE",
+						"a jewel. That makes it extra special!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"I'll take good care of this!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1b2f",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1b30",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1c86"
+			},
+			{
+				"LABEL": "0x1b35",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1bf7"
+			},
+			{
+				"LABEL": "0x1b3f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1b4c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1b4f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"We've got another order from Camellia!",
+						"NEW_LINE",
+						"They want ten items this time!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Work's never gonna end, even when the",
+						"NEW_LINE",
+						"war does!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1bee",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1bef",
+				"TYPE": "0xC",
+				"UNK": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x1bf2",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1c86"
+			},
+			{
+				"LABEL": "0x1bf7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1c04",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1c07",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I wish I had as much free time as the",
+						"NEW_LINE",
+						"nobles did.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We're too busy working to do anything",
+						"NEW_LINE",
+						"else...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c85",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1c86",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1ee0"
+			},
+			{
+				"LABEL": "0x1c8b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							8957
+						]
+					}
+				],
+				"TO_LABEL": "0x1ee0"
+			},
+			{
+				"LABEL": "0x1c94",
+				"TYPE": "0x14",
+				"UNK": "FEFF030A",
+				"STRINGS": [
+					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x1ca9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1cac",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x1cb0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1e24"
+			},
+			{
+				"LABEL": "0x1cba",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1cc7",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1cca",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Twenty-five items to be sent to this store!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"They're all super-high quality, too, so it's",
+						"NEW_LINE",
+						"really, really expensive!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"It's kinda weird that no one pays us right",
+						"NEW_LINE",
+						"away, though...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"That shouldn't be happening!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e1b",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e1c",
+				"TYPE": "0xC",
+				"UNK": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x1e1f",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1ee0"
+			},
+			{
+				"LABEL": "0x1e24",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": -2,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x1e31",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e34",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Customers keep talking about the good",
+						"NEW_LINE",
+						"economy, but they never pay in full.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Which they should!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1edf",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1ee0",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x1ee2",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Party_Face_Reset2"
+				]
+			},
+			{
+				"LABEL": "0x1ef9",
+				"TYPE": "0x4A",
+				"CONTROL": 46
+			},
+			{
+				"LABEL": "0x1efb",
+				"TYPE": "0x4A",
+				"CONTROL": 54
+			},
+			{
+				"LABEL": "0x1efd",
+				"TYPE": "RETURN"
+			}
+		],
+		"SB_KIZUNA_FIE_05A": [
+			{
+				"LABEL": "0x1f00",
+				"TYPE": "0xE",
+				"UNK": "02000000"
+			},
+			{
+				"LABEL": "0x1f05",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f07",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "F080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f12",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "F080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 11
+					}
+				],
+				"TO_LABEL": "0x1f2a"
+			},
+			{
+				"LABEL": "0x1f22",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0x1f2a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f2c",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "F080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f37",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "F080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x1f90"
+			},
+			{
+				"LABEL": "0x1f47",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f49",
+							"TYPE": "0x2F",
+							"UNK": "10F00200",
+							"STRINGS": [
+								"AniFieldAttack"
+							]
+						}
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f5f",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1f69",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x1f84"
+			},
+			{
+				"LABEL": "0x1f77",
+				"TYPE": "0x2F",
+				"UNK": "10F00000",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x1f84",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1f8c",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1f90",
+				"TYPE": "0xE",
+				"UNK": "00000040"
+			},
+			{
+				"LABEL": "0x1f95",
+				"TYPE": "0x16",
+				"UNK": "00F080"
+			},
+			{
+				"LABEL": "0x1f99",
+				"TYPE": "0x3A",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x1f9d",
+				"TYPE": "0x67",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0x1fa4",
+				"TYPE": "0x40",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x1fa6",
+				"TYPE": "0x48",
+				"UNK": "050000"
+			},
+			{
+				"LABEL": "0x1faa",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1fac",
+							"TYPE": "0xA2",
+							"CONTROL": 4,
+							"UNK": "F080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x1fcf"
+			},
+			{
+				"LABEL": "0x1fbb",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Start_Party"
+				]
+			},
+			{
+				"LABEL": "0x1fcc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1fcf",
+				"TYPE": "0x13",
+				"UNK0": [
+					7
+				],
+				"STRINGS1": [
+					"C_PLY007_C10",
+					"Fie",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000000000000803FCDCCCC3FEC51B83D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x201c",
+				"TYPE": "0x14",
+				"UNK": "0000030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x202e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2031",
+				"TYPE": "0x14",
+				"UNK": "0700030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x2043",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2046",
+				"TYPE": "0x74",
+				"CONTROL": 0
+			},
+			{
+				"LABEL": "0x2048",
+				"TYPE": "0x74",
+				"CONTROL": 2,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x204c",
+				"TYPE": "0x74",
+				"CONTROL": 5,
+				"UNK": "0000F041"
+			},
+			{
+				"LABEL": "0x2052",
+				"TYPE": "0x74",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x2056",
+				"TYPE": "0x2E",
+				"UNK": "0700E17A244100000000C3F538409A993742"
+			},
+			{
+				"LABEL": "0x2069",
+				"TYPE": "0x2E",
+				"UNK": "0000713D2E4100000000000010409A994542"
+			},
+			{
+				"LABEL": "0x207c",
+				"TYPE": "0x30",
+				"UNK0": "000000",
+				"STRINGS": [
+					"AniEvWait"
+				],
+				"UNK1": "000000000000803F00000000"
+			},
+			{
+				"LABEL": "0x2096",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK": "0385EB35413333B33F1F853B400000"
+			},
+			{
+				"LABEL": "0x20a7",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK": "0385EB35416666663F1F853B40B80B"
+			},
+			{
+				"LABEL": "0x20b8",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK": "037B14014229DC7E4300000000000000"
+			},
+			{
+				"LABEL": "0x20ca",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK": "03CDCC4C400000"
+			},
+			{
+				"LABEL": "0x20d3",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK": "03000008420000"
+			},
+			{
+				"LABEL": "0x20dc",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFF40120038C0000"
+			},
+			{
+				"LABEL": "0x20e7",
+				"TYPE": "TEXT18",
+				"UNK": [
+					-3
+				],
+				"DIALOG": {
+					"STRINGS": [
+						"CMD: 11",
+						"Upon reaching the tailor, Rean asked them to fix up Fie's",
+						"NEW_LINE",
+						"shoe for her.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2161",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2162",
+				"TYPE": "TEXT18",
+				"UNK": [
+					-3
+				],
+				"DIALOG": {
+					"STRINGS": [
+						"CMD: 11",
+						"They were told it would be a quick process, so they had",
+						"NEW_LINE",
+						"a look around the store in the meantime.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x21d0",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x21d1",
+				"TYPE": "0x1B",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x21d3",
+				"TYPE": "0x1B",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x21d5",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x21e0",
+				"TYPE": "0x3A",
+				"CONTROL": 100,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x21e8",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x21ec",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK": "FF00"
+			},
+			{
+				"LABEL": "0x21f0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E_0#M_9"
+				]
+			},
+			{
+				"LABEL": "0x21fd",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2200",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#3KOh, hey! They've got Stregas here. You're",
+						"NEW_LINE",
+						"pretty fond of this brand, aren't you?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2260",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2261",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E_0#M_9"
+				]
+			},
+			{
+				"LABEL": "0x226e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2271",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#4KSure am.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[1]#M_0Seems like they've only got formal wear",
+						"NEW_LINE",
+						"here, though.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_8#M_0Would've been up for buying some new",
+						"NEW_LINE",
+						"sneakers if they had any.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2354",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2355",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M_0"
+				]
+			},
+			{
+				"LABEL": "0x2363",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2366",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#3KI don't see you prancing around in formal",
+						"NEW_LINE",
+						"wear anyway, to be honest...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_0#M_9How long have you been a fan? Since you",
+						"NEW_LINE",
+						"were in Zephyr?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x23d6",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x23d7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E_0#M_9"
+				]
+			},
+			{
+				"LABEL": "0x23e4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x23e7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#4KYup. The boss bought me a pair for helping",
+						"NEW_LINE",
+						"out with something.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[1]#M_9That was the second present he gave me,",
+						"NEW_LINE",
+						"in fact.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x249b",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x249c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[C]#M_0"
+				]
+			},
+			{
+				"LABEL": "0x24aa",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x24ad",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#3KOh...? What was the first, then?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x24c7",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x24c8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E_4#M_9"
+				]
+			},
+			{
+				"LABEL": "0x24d5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x24d8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#4KThe name 'Claussell.'",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[1]#M_9That's a present I'll never let go of, either.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_4#M_9There's no one else in the world who can",
+						"NEW_LINE",
+						"give me that, after all.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2613",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2614",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M_9"
+				]
+			},
+			{
+				"LABEL": "0x2622",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2625",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#3K...I know how you feel. Dad welcoming me",
+						"NEW_LINE",
+						"as a proper member of the Schwarzer family",
+						"NEW_LINE",
+						"meant the world to me.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_0#M_9So yeah, let's keep our appreciation for that",
+						"NEW_LINE",
+						"close to our hearts.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x26e8",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x26e9",
+				"TYPE": "0x3B",
+				"UNK": "0700099A99193E0000"
+			},
+			{
+				"LABEL": "0x26f3",
+				"TYPE": "0x10",
+				"UNK": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x26f6",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFF40100"
+			},
+			{
+				"LABEL": "0x26fd",
+				"TYPE": "0x19",
+				"CONTROL": 2,
+				"UNK": "5802AD00"
+			},
+			{
+				"LABEL": "0x2703",
+				"TYPE": "0x3A",
+				"CONTROL": 10,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x2707",
+				"TYPE": "0x3A",
+				"CONTROL": 12,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x270b",
+				"TYPE": "0x45",
+				"CONTROL": 0,
+				"UNK": "00000000F04106FF100000000000B81E05BE"
+			},
+			{
+				"LABEL": "0x271f",
+				"TYPE": "0x45",
+				"CONTROL": 0,
+				"UNK": "07000000F0C1FA001000000000008FC2F5BC"
+			},
+			{
+				"LABEL": "0x2733",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "00000000803F0000803F0000803F00000000000003"
+			},
+			{
+				"LABEL": "0x274a",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "07000000803F0000803F0000803F00000000000003"
+			},
+			{
+				"LABEL": "0x2761",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "00000000803F0000803F0000803F0000803FF40103"
+			},
+			{
+				"LABEL": "0x2778",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "07000000803F0000803F0000803F0000803FF40103"
+			},
+			{
+				"LABEL": "0x278f",
+				"TYPE": "0x10",
+				"UNK": [
+					800
+				]
+			},
+			{
+				"LABEL": "0x2792",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E[1]#M_0"
+				]
+			},
+			{
+				"LABEL": "0x27a0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x27a3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TSpeaking of things from the past...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_0#M_9I was actually reminded of the boss when",
+						"NEW_LINE",
+						"you were giving me that piggyback ride.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2818",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2819",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[C]#M_0"
+				]
+			},
+			{
+				"LABEL": "0x2827",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x282a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0THuh...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2840",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2841",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E_0#M_9"
+				]
+			},
+			{
+				"LABEL": "0x284e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2851",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0THe did the same for me not long after",
+						"NEW_LINE",
+						"bringing me into Zephyr.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[1]#M_9Stuff like that's what made him feel like",
+						"NEW_LINE",
+						"he actually was my real dad.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x28fe",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x28ff",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E_F#M_0"
+				]
+			},
+			{
+				"LABEL": "0x290c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x290f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TFie...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x292e",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x292f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E_0#M_0"
+				]
+			},
+			{
+				"LABEL": "0x293c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x293f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T...There's something else I realized, too.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[9]#M_0You remind me of the boss, but...you're",
+						"NEW_LINE",
+						"not actually him in the end.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_E#M_0Just like Class VII isn't the same family",
+						"NEW_LINE",
+						"that Zephyr was, even though both are",
+						"NEW_LINE",
+						"important to me.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_2#M_0I'm not the same person I was back then,",
+						"NEW_LINE",
+						"either. I don't wanna sit around and be",
+						"NEW_LINE",
+						"protected all the time anymore.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2a8f",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2a90",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[C]#M_0"
+				]
+			},
+			{
+				"LABEL": "0x2a9e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2aa1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T...",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[1]#M_9...Yeah, that's right.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_0#M_9We're all in this together, Fie.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"Supporting each other's the obvious way to",
+						"NEW_LINE",
+						"go.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2b7e",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2b7f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E[1]#M_4"
+				]
+			},
+			{
+				"LABEL": "0x2b8d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2b90",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TYup. And I'm gonna use what I learned from",
+						"NEW_LINE",
+						"my old family to do just that.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E_4#M_4...Thanks, Rean.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2c4b",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2c4c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M_9"
+				]
+			},
+			{
+				"LABEL": "0x2c5a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2c5d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0THaha. Not at all.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2c88",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2c89",
+				"TYPE": "0x31",
+				"CONTROL": 1,
+				"UNK": "A00F00"
+			},
+			{
+				"LABEL": "0x2c8e",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "00000000803F0000803F0000803F00000000D00703"
+			},
+			{
+				"LABEL": "0x2ca5",
+				"TYPE": "0x45",
+				"CONTROL": 3,
+				"UNK": "07000000803F0000803F0000803F00000000D00703"
+			},
+			{
+				"LABEL": "0x2cbc",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "D0070000803F"
+			},
+			{
+				"LABEL": "0x2cc4",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2cc8",
+				"TYPE": "0x31",
+				"CONTROL": 2,
+				"UNK": "00"
+			},
+			{
+				"LABEL": "0x2ccb",
+				"TYPE": "0x31",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x2ccf",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFF40120038C0000"
+			},
+			{
+				"LABEL": "0x2cda",
+				"TYPE": "TEXT18",
+				"UNK": [
+					-3
+				],
+				"DIALOG": {
+					"STRINGS": [
+						"CMD: 11",
+						"It took a little more time before their order was ready, so",
+						"NEW_LINE",
+						"the two wandered the store for a while longer. Once it was,",
+						"NEW_LINE",
+						"they saw that Fie's shoes were as good as new.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2d51",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2d52",
+				"TYPE": "0x1B",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2d54",
+				"TYPE": "0x1B",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2d56",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2d61",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2d68",
+				"TYPE": "0x19",
+				"CONTROL": 2,
+				"UNK": "FFFFFFFF"
+			},
+			{
+				"LABEL": "0x2d6e",
+				"TYPE": "0x3A",
+				"CONTROL": 11,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x2d72",
+				"TYPE": "0x3A",
+				"CONTROL": 12,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2d76",
+				"TYPE": "0x45",
+				"CONTROL": 1,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2d7a",
+				"TYPE": "0x45",
+				"CONTROL": 1,
+				"UNK": "0700"
+			},
+			{
+				"LABEL": "0x2d7e",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x2d81",
+				"TYPE": "0x32",
+				"CONTROL": 0,
+				"UNK": "452F0000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2da8",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2db3",
+				"TYPE": "TEXT18",
+				"UNK": [
+					-3
+				],
+				"DIALOG": {
+					"STRINGS": [
+						"CMD: 11",
+						"",
+						"SHOW_ALL",
+						"Your bond with Fie strengthened!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2dde",
+				"TYPE": "CLEAN_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2ddf",
+				"TYPE": "0x1B",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2de1",
+				"TYPE": "0x1B",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2de3",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2dee",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x2df1",
+				"TYPE": "0x5F",
+				"CONTROL": 6,
+				"UNK": "00000700200300000000"
+			},
+			{
+				"LABEL": "0x2dfd",
+				"TYPE": "0x5F",
+				"CONTROL": 7,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2e01",
+				"TYPE": "0x5F",
+				"CONTROL": 9,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2e05",
+				"TYPE": "0x5F",
+				"CONTROL": 8,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2e09",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x2e0c",
+				"TYPE": "0x12",
+				"UNK": [
+					9
+				],
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							9
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 13
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x2e18",
+				"TYPE": "0x24",
+				"CONTROL": 9,
+				"UNK": "000000"
+			},
+			{
+				"LABEL": "0x2e1d",
+				"TYPE": "0x24",
+				"CONTROL": 9,
+				"UNK": "070000"
+			},
+			{
+				"LABEL": "0x2e22",
+				"TYPE": "0xC",
+				"UNK": [
+					10840
+				]
+			},
+			{
+				"LABEL": "0x2e25",
+				"TYPE": "0x87",
+				"CONTROL": 0,
+				"UNK": "07002000"
+			},
+			{
+				"LABEL": "0x2e2b",
+				"TYPE": "0x31",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x2e2d",
+				"TYPE": "0x2E",
+				"UNK": "10F000000000000000000000000000000000"
+			},
+			{
+				"LABEL": "0x2e40",
+				"TYPE": "0xA2",
+				"CONTROL": 1,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2e44",
+				"TYPE": "RETURN"
+			}
+		],
+		"SB_KIZUNA_FIE_05_B": [
+			{
+				"LABEL": "0x2e48",
+				"TYPE": "0xE",
+				"UNK": "02000000"
+			},
+			{
+				"LABEL": "0x2e4d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2e4f",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "C080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2e5a",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "C080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 11
+					}
+				],
+				"TO_LABEL": "0x2e72"
+			},
+			{
+				"LABEL": "0x2e6a",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0x2e72",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2e74",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "C080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2e7f",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "C080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x2ed8"
+			},
+			{
+				"LABEL": "0x2e8f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2e91",
+							"TYPE": "0x2F",
+							"UNK": "10F00200",
+							"STRINGS": [
+								"AniFieldAttack"
+							]
+						}
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2ea7",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2eb1",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x2ecc"
+			},
+			{
+				"LABEL": "0x2ebf",
+				"TYPE": "0x2F",
+				"UNK": "10F00000",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x2ecc",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x2ed4",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2ed8",
+				"TYPE": "0xE",
+				"UNK": "00000040"
+			},
+			{
+				"LABEL": "0x2edd",
+				"TYPE": "0x16",
+				"UNK": "00C080"
+			},
+			{
+				"LABEL": "0x2ee1",
+				"TYPE": "0x3A",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x2ee5",
+				"TYPE": "0x67",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0x2eec",
+				"TYPE": "0x40",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x2eee",
+				"TYPE": "0x48",
+				"UNK": "050000"
+			},
+			{
+				"LABEL": "0x2ef2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2ef4",
+							"TYPE": "0xA2",
+							"CONTROL": 4,
+							"UNK": "C080"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x2f17"
+			},
+			{
+				"LABEL": "0x2f03",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Start_Party"
+				]
+			},
+			{
+				"LABEL": "0x2f14",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2f17",
+				"TYPE": "0x2E",
+				"UNK": "10F00AD713410000000048E11A409A991942"
+			},
+			{
+				"LABEL": "0x2f2a",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK": "039A990541D783924300000000000000"
+			},
+			{
+				"LABEL": "0x2f3c",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_End_Party"
+				]
+			},
+			{
+				"LABEL": "0x2f4b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2f4e",
+				"TYPE": "0x3A",
+				"CONTROL": 105,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x2f52",
+				"TYPE": "0x67",
+				"UNK": "0000803F2C01"
+			},
+			{
+				"LABEL": "0x2f59",
+				"TYPE": "0x48",
+				"UNK": "040000"
+			},
+			{
+				"LABEL": "0x2f5d",
+				"TYPE": "0xF",
+				"UNK": [
+					1073741824
+				]
+			},
+			{
+				"LABEL": "0x2f62",
+				"TYPE": "0x40",
+				"CONTROL": 3
+			},
+			{
+				"LABEL": "0x2f64",
+				"TYPE": "0x4A",
+				"CONTROL": 67
+			},
+			{
+				"LABEL": "0x2f66",
+				"TYPE": "0x2D",
+				"CONTROL": 8,
+				"UNK": "010000"
+			},
+			{
+				"LABEL": "0x2f6b",
+				"TYPE": "0xD",
+				"UNK": [
+					6409
+				]
+			},
+			{
+				"LABEL": "0x2f6e",
+				"TYPE": "0xD",
+				"UNK": [
+					6408
+				]
+			},
+			{
+				"LABEL": "0x2f71",
+				"TYPE": "0xC",
+				"UNK": [
+					6464
+				]
+			},
+			{
+				"LABEL": "0x2f74",
+				"TYPE": "0xD",
+				"UNK": [
+					6465
+				]
+			},
+			{
+				"LABEL": "0x2f77",
+				"TYPE": "0xD",
+				"UNK": [
+					6466
+				]
+			},
+			{
+				"LABEL": "0x2f7a",
+				"TYPE": "0xD",
+				"UNK": [
+					6467
+				]
+			},
+			{
+				"LABEL": "0x2f7d",
+				"TYPE": "0xD",
+				"UNK": [
+					6468
+				]
+			},
+			{
+				"LABEL": "0x2f80",
+				"TYPE": "0xD",
+				"UNK": [
+					6469
+				]
+			},
+			{
+				"LABEL": "0x2f83",
+				"TYPE": "0xD",
+				"UNK": [
+					6470
+				]
+			},
+			{
+				"LABEL": "0x2f86",
+				"TYPE": "0xD",
+				"UNK": [
+					6471
+				]
+			},
+			{
+				"LABEL": "0x2f89",
+				"TYPE": "0x4A",
+				"CONTROL": 18
+			},
+			{
+				"LABEL": "0x2f8b",
+				"TYPE": "0x4A",
+				"CONTROL": 45
+			},
+			{
+				"LABEL": "0x2f8d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2f90",
+				"TYPE": "0xE",
+				"UNK": "00080000"
+			},
+			{
+				"LABEL": "0x2f95",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0x2fa3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2fa6",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Reinit"
+				]
+			},
+			{
+				"LABEL": "0x2faf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2fb2",
+				"TYPE": "0xF",
+				"UNK": [
+					2048
+				]
+			},
+			{
+				"LABEL": "0x2fb7",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_MapJumpState"
+				]
+			},
+			{
+				"LABEL": "0x2fc9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2fcc",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_MapJumpState2"
+				]
+			},
+			{
+				"LABEL": "0x2fdf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2fe2",
+				"TYPE": "0x3A",
+				"CONTROL": 100,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x2fea",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2fee",
+				"TYPE": "0x17",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2ff0",
+				"TYPE": "RETURN"
+			}
+		],
+		"SB_STUDENT20_COLETTE_06C": [
+			{
+				"LABEL": "0x2ff4",
+				"TYPE": "0xE",
+				"UNK": "02000000"
+			},
+			{
+				"LABEL": "0x2ff9",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2ffb",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "0A80"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x3006",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "0A80"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 2
+					},
+					{
+						"CONTROL": 11
+					}
+				],
+				"TO_LABEL": "0x301e"
+			},
+			{
+				"LABEL": "0x3016",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0x301e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x3020",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "0A80"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x302b",
+							"TYPE": "0xA2",
+							"CONTROL": 3,
+							"UNK": "0A80"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x3084"
+			},
+			{
+				"LABEL": "0x303b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x303d",
+							"TYPE": "0x2F",
+							"UNK": "10F00200",
+							"STRINGS": [
+								"AniFieldAttack"
+							]
+						}
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x3053",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x305d",
+							"TYPE": "0x4A",
+							"CONTROL": 65
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 3
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x3078"
+			},
+			{
+				"LABEL": "0x306b",
+				"TYPE": "0x2F",
+				"UNK": "10F00000",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x3078",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x3080",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x3084",
+				"TYPE": "0xE",
+				"UNK": "00000040"
+			},
+			{
+				"LABEL": "0x3089",
+				"TYPE": "0x16",
+				"UNK": "000A80"
+			},
+			{
+				"LABEL": "0x308d",
+				"TYPE": "0x3A",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x3091",
+				"TYPE": "0x67",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0x3098",
+				"TYPE": "0x40",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x309a",
+				"TYPE": "0x48",
+				"UNK": "050000"
+			},
+			{
+				"LABEL": "0x309e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x30a0",
+							"TYPE": "0xA2",
+							"CONTROL": 4,
+							"UNK": "0A80"
+						}
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x30c3"
+			},
+			{
+				"LABEL": "0x30af",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"FC_Start_Party"
+				]
+			},
+			{
+				"LABEL": "0x30c0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x30c3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6471
+						]
+					}
+				],
+				"TO_LABEL": "0x30cc"
+			},
+			{
+				"LABEL": "0x30cc",
+				"TYPE": "0x13",
+				"UNK0": [
+					104
+				],
+				"STRINGS1": [
+					"C_NPC184",
+					"Colette",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000000000000803FCDCCCC3FEC51B83D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x3118",
+				"TYPE": "0x13",
+				"UNK0": [
+					5272
+				],
+				"STRINGS1": [
+					"C_NPC281",
+					"Gazel",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000000000000803FCDCCCC3FEC51B83D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x3161",
+				"TYPE": "0x13",
+				"UNK0": [
+					5273
+				],
+				"STRINGS1": [
+					"C_NPC249_C00",
+					"Turi",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000000000000803FCDCCCC3FEC51B83D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x31b1",
+				"TYPE": "0x13",
+				"UNK0": [
+					0
+				],
+				"STRINGS1": [
+					"C_PLY000",
+					"Rean",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000000000000803FCDCCCC3FEC51B83D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x31fa",
+				"TYPE": "0x2B",
+				"UNK": "10F001000000"
+			},
+			{
+				"LABEL": "0x3201",
+				"TYPE": "0x14",
+				"UNK": "0000030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x3213",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3216",
+				"TYPE": "0x14",
+				"UNK": "6800030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x3228",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x322b",
+				"TYPE": "0x14",
+				"UNK": "9814030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x323d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3240",
+				"TYPE": "0x14",
+				"UNK": "9914030A",
+				"STRINGS": [
+					"FC_chr_entry"
+				]
+			},
+			{
+				"LABEL": "0x3252",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3255",
+				"TYPE": "0x24",
+				"CONTROL": 8,
+				"UNK": "680000",
+				"STRINGS": [
+					"AniEvWatasu",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			{
+				"LABEL": "0x3275",
+				"TYPE": "0x2E",
+				"UNK": "0000D7A370C000004040A4700DC066665F43"
+			},
+			{
+				"LABEL": "0x3288",
+				"TYPE": "0x2E",
+				"UNK": "68008FC275C0000040401F853BC000008743"
+			},
+			{
+				"LABEL": "0x329b",
+				"TYPE": "0x2E",
+				"UNK": "981485EBA1C000004040713D0AC09A190043"
+			},
+			{
+				"LABEL": "0x32ae",
+				"TYPE": "0x2E",
+				"UNK": "9914EC51A0C00000404052B83EC00000B442"
+			},
+			{
+				"LABEL": "0x32c1",
+				"TYPE": "0x4A",
+				"CONTROL": 18
+			},
+			{
+				"LABEL": "0x32c3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x32c6",
+				"TYPE": "0x3D",
+				"NAME_ID": 104,
+				"CONTROLS": [
+					5273,
+					0
+				]
+			},
+			{
+				"LABEL": "0x32cd",
+				"TYPE": "0x3D",
+				"NAME_ID": 5273,
+				"CONTROLS": [
+					104,
+					0
+				]
+			},
+			{
+				"LABEL": "0x32d4",
+				"TYPE": "0x3D",
+				"NAME_ID": 5272,
+				"CONTROLS": [
+					104,
+					0
+				]
+			},
+			{
+				"LABEL": "0x32db",
+				"TYPE": "0x3C",
+				"UNK": "000000000000000020C10000000000000000"
+			},
+			{
+				"LABEL": "0x32ee",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK": "03EC51A0C0B81E754014AEE7BF0000"
+			},
+			{
+				"LABEL": "0x32ff",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK": "03713D364114AE0D4300000000000000"
+			},
+			{
+				"LABEL": "0x3311",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK": "033333A3400000"
+			},
+			{
+				"LABEL": "0x331a",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK": "03000008420000"
+			},
+			{
+				"LABEL": "0x3323",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK": "039A999940DC05"
+			},
+			{
+				"LABEL": "0x332c",
+				"TYPE": "0x3A",
+				"CONTROL": 100,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x3334",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x3338",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK": "FF00"
+			},
+			{
+				"LABEL": "0x333c",
+				"TYPE": "0x30",
+				"UNK0": "680000",
+				"STRINGS": [
+					"AniEvWatasu"
+				],
+				"UNK1": "3333333FCDCC4C3F00000000"
+			},
+			{
+				"LABEL": "0x3358",
+				"TYPE": "0x10",
+				"UNK": [
+					1800
+				]
+			},
+			{
+				"LABEL": "0x335b",
+				"TYPE": "0x30",
+				"UNK0": "680000",
+				"STRINGS": [
+					"AniWait"
+				],
+				"UNK1": "3333333F0000803F00000000"
+			},
+			{
+				"LABEL": "0x3373",
+				"TYPE": "0x3B",
+				"UNK": "99140C9A99193E0000"
+			},
+			{
+				"LABEL": "0x337d",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x3380",
+				"TYPE": "0x3B",
+				"UNK": "68000C9A99193E0000"
+			},
+			{
+				"LABEL": "0x338a",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x338d",
+				"TYPE": "0x10",
+				"UNK": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x3390",
+				"TYPE": "0x3B",
+				"UNK": "99140C9A99193E0000"
+			},
+			{
+				"LABEL": "0x339a",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x339d",
+				"TYPE": "0x3B",
+				"UNK": "68000C9A99193E0000"
+			},
+			{
+				"LABEL": "0x33a7",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x33aa",
+				"TYPE": "0x10",
+				"UNK": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x33ad",
+				"TYPE": "0x3B",
+				"UNK": "99140C9A99193E0000"
+			},
+			{
+				"LABEL": "0x33b7",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x33ba",
+				"TYPE": "0x3B",
+				"UNK": "68000C9A99193E0000"
+			},
+			{
+				"LABEL": "0x33c4",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x33c7",
+				"TYPE": "0x10",
+				"UNK": [
+					700
+				]
+			},
+			{
+				"LABEL": "0x33ca",
+				"TYPE": "0x3B",
+				"UNK": "000006000000000000"
+			},
+			{
+				"LABEL": "0x33d4",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x33d7",
+				"TYPE": "0x3B",
+				"UNK": "981406000000000000"
+			},
+			{
+				"LABEL": "0x33e1",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x33e4",
+				"TYPE": "0x3A",
+				"CONTROL": 0,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x33ec",
+				"TYPE": "0x3A",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x33f0",
+				"TYPE": "0xA2",
+				"CONTROL": 1,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x33f4",
+				"TYPE": "RETURN"
+			}
+		],
+		"_SB_KIZUNA_FIE_05A": [
+			{
+				"LABEL": "0x3400",
+				"TYPE": 4,
+				"UNK": "00FDFF452F00000000000000000000000000000000000000000000000000000000000000000000"
+			},
+			{
+				"LABEL": "0x3428",
+				"TYPE": 0,
+				"UNK": "00FDFF00000000000000000000000000000000000000000000000000000000000000000000000001"
+			}
+		]
+	}
+}
