@@ -34,7 +34,7 @@
 						"CONTROL": 9
 					}
 				],
-				"TO_LABEL": "0x1bb"
+				"TO_LABEL": "0x19d"
 			},
 			{
 				"LABEL": "0x50",
@@ -78,36 +78,38 @@
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"この先は帝都方面ってことで",
+						"This way heads out to Heimdallr, which",
 						"NEW_LINE",
-						"貴族連合の検問が張られているようだ。",
+						"means the alliance ain't screwing around.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"いいか、絶対に無理だけはするな。",
+						"For all I know, they've got everything",
 						"NEW_LINE",
-						"お前らは特に警戒されてるんだからな。",
+						"locked down and this'll just be a waste",
+						"NEW_LINE",
+						"of time.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"あまり近づきすぎたりして、",
+						"So now's not the time to go play hero. Do",
 						"NEW_LINE",
-						"捕まったりするんじゃねえぞ。",
+						"what you can, then get the hell on back.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x19c",
+				"LABEL": "0x17e",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x19d",
+				"LABEL": "0x17f",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x19f",
+				"LABEL": "0x181",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -117,21 +119,21 @@
 				]
 			},
 			{
-				"LABEL": "0x1b6",
+				"LABEL": "0x198",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x1b8",
+				"LABEL": "0x19a",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x1ba",
+				"LABEL": "0x19c",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0x1bb",
+				"LABEL": "0x19d",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -141,14 +143,51 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x362"
+				"TO_LABEL": "0x2fc"
 			},
 			{
-				"LABEL": "0x1c4",
+				"LABEL": "0x1a6",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
 					"FC_chr_entry_tk"
+				]
+			},
+			{
+				"LABEL": "0x1bb",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1be",
+				"TYPE": "0x16",
+				"UNK": "0A0000"
+			},
+			{
+				"LABEL": "0x1c2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							7184
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x280"
+			},
+			{
+				"LABEL": "0x1cc",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 95,
+				"STRINGS": [
+					"#E_0#M_0"
 				]
 			},
 			{
@@ -160,77 +199,40 @@
 			},
 			{
 				"LABEL": "0x1dc",
-				"TYPE": "0x16",
-				"UNK": "0A0000"
-			},
-			{
-				"LABEL": "0x1e0",
-				"TYPE": "GOTO5",
-				"TABLE": [
-					{
-						"CONTROL": 30,
-						"UNK": [
-							7184
-						]
-					},
-					{
-						"CONTROL": 8
-					}
-				],
-				"TO_LABEL": "0x2a8"
-			},
-			{
-				"LABEL": "0x1ea",
-				"TYPE": "SET_NAME_ID",
-				"CONTROL": 4,
-				"NAME_ID": 95,
-				"STRINGS": [
-					"#E_0#M_0"
-				]
-			},
-			{
-				"LABEL": "0x1f7",
-				"TYPE": "0x10",
-				"UNK": [
-					0
-				]
-			},
-			{
-				"LABEL": "0x1fa",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"へっ、どうしても卒業前に",
+						"Heh. I've gotta beat Friedel at least",
 						"NEW_LINE",
-						"フリーデルから一本とりたくてな。",
+						"once before we graduate. Don't wanna",
+						"NEW_LINE",
+						"leave Thors with any regrets, right?",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"思い残すことの無いように",
-						"NEW_LINE",
-						"全力で行かせてもらうぜ！",
+						"Let's go! Don't hold back on me, now!",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x29f",
+				"LABEL": "0x277",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x2a0",
+				"LABEL": "0x278",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x2a3",
+				"LABEL": "0x27b",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x33f"
+				"TO_LABEL": "0x2d9"
 			},
 			{
-				"LABEL": "0x2a8",
+				"LABEL": "0x280",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -239,41 +241,39 @@
 				]
 			},
 			{
-				"LABEL": "0x2b5",
+				"LABEL": "0x28d",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x2b8",
+				"LABEL": "0x290",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"やっぱ強えな、フリーデルは……",
+						"You really are strong...",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"へっ、負けてられっかよ！",
-						"NEW_LINE",
-						"絶対一本くらいはとってやるぜ！",
+						"...but I'm not done yet! I WILL beat you!",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x33e",
+				"LABEL": "0x2d8",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x33f",
+				"LABEL": "0x2d9",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x341",
+				"LABEL": "0x2db",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -283,26 +283,26 @@
 				]
 			},
 			{
-				"LABEL": "0x358",
+				"LABEL": "0x2f2",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x35a",
+				"LABEL": "0x2f4",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x35c",
+				"LABEL": "0x2f6",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0x35d",
+				"LABEL": "0x2f7",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x362",
+				"LABEL": "0x2fc",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -312,10 +312,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x530"
+				"TO_LABEL": "0x49f"
 			},
 			{
-				"LABEL": "0x36b",
+				"LABEL": "0x305",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -328,10 +328,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x395"
+				"TO_LABEL": "0x32f"
 			},
 			{
-				"LABEL": "0x375",
+				"LABEL": "0x30f",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					0
@@ -341,12 +341,12 @@
 				]
 			},
 			{
-				"LABEL": "0x390",
+				"LABEL": "0x32a",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x50d"
+				"TO_LABEL": "0x47c"
 			},
 			{
-				"LABEL": "0x395",
+				"LABEL": "0x32f",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
@@ -354,19 +354,19 @@
 				]
 			},
 			{
-				"LABEL": "0x3aa",
+				"LABEL": "0x344",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x3ad",
+				"LABEL": "0x347",
 				"TYPE": "0x16",
 				"UNK": "0A0000"
 			},
 			{
-				"LABEL": "0x3b1",
+				"LABEL": "0x34b",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -375,50 +375,52 @@
 				]
 			},
 			{
-				"LABEL": "0x3be",
+				"LABEL": "0x358",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x3c1",
+				"LABEL": "0x35b",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"やれやれ、ある意味問題を",
+						"Honestly, I'm probably just prolonging",
 						"NEW_LINE",
-						"先延ばしにしちまったって感じだが……",
+						"the inevitable here...",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"フリーデルと武者修行する中でなら",
+						"...but maybe staying with her will help me",
 						"NEW_LINE",
-						"なんとかいい道が見つかりそうな気がするぜ。",
+						"find a good reason to join the army, or",
+						"NEW_LINE",
+						"even a good reason to do something else.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……さて、そうと決まれば",
+						"Either way, now I've only got one last",
 						"NEW_LINE",
-						"士官学院でのもう一つの心残りも",
+						"thing I wanna do before I graduate.",
 						"NEW_LINE",
-						"なんとか片付けねえとな。",
+						"Time to get on that.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x50c",
+				"LABEL": "0x47b",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x50d",
+				"LABEL": "0x47c",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x50f",
+				"LABEL": "0x47e",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -428,26 +430,26 @@
 				]
 			},
 			{
-				"LABEL": "0x526",
+				"LABEL": "0x495",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x528",
+				"LABEL": "0x497",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x52a",
+				"LABEL": "0x499",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0x52b",
+				"LABEL": "0x49a",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x530",
+				"LABEL": "0x49f",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -457,10 +459,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x81d"
+				"TO_LABEL": "0x73e"
 			},
 			{
-				"LABEL": "0x539",
+				"LABEL": "0x4a8",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
@@ -468,19 +470,19 @@
 				]
 			},
 			{
-				"LABEL": "0x54e",
+				"LABEL": "0x4bd",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x551",
+				"LABEL": "0x4c0",
 				"TYPE": "0x16",
 				"UNK": "0A0000"
 			},
 			{
-				"LABEL": "0x555",
+				"LABEL": "0x4c4",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -493,10 +495,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x72e"
+				"TO_LABEL": "0x644"
 			},
 			{
-				"LABEL": "0x55f",
+				"LABEL": "0x4ce",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -505,64 +507,62 @@
 				]
 			},
 			{
-				"LABEL": "0x56c",
+				"LABEL": "0x4db",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x56f",
+				"LABEL": "0x4de",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"俺は卒業したらそのまま",
+						"I enrolled in this academy figuring it'd",
 						"NEW_LINE",
-						"正規軍に入るつもりで、",
-						"NEW_LINE",
-						"士官学院に入った。",
+						"lead me straight into the Imperial Army.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"昔っから腕っ節だけは強かったし、",
+						"The only thing I'm good at is being",
 						"NEW_LINE",
-						"軍人になりゃあそれだけで",
+						"tough, so I always figured that'd be",
 						"NEW_LINE",
-						"食っていけるだろうって考えでな。",
+						"the best way to pay the bills, I guess.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"だが……最近は本当にそれでいいのか",
+						"...But lately, I've been wondering if",
 						"NEW_LINE",
-						"分からなくなっちまっててな。",
+						"that's really a good enough reason to",
+						"NEW_LINE",
+						"join up...",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"すでに軍に入るための準備は",
+						"I'm pretty much ready to enlist,",
 						"NEW_LINE",
-						"整っちまってるが……",
-						"NEW_LINE",
-						"……どうしたモンかね。",
+						"but...do I really want to?",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x725",
+				"LABEL": "0x63b",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x726",
+				"LABEL": "0x63c",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x729",
+				"LABEL": "0x63f",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x7fa"
+				"TO_LABEL": "0x71b"
 			},
 			{
-				"LABEL": "0x72e",
+				"LABEL": "0x644",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -571,45 +571,45 @@
 				]
 			},
 			{
-				"LABEL": "0x73b",
+				"LABEL": "0x651",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x73e",
+				"LABEL": "0x654",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"卒業したらそのまま",
+						"Ever since I entered the academy,",
 						"NEW_LINE",
-						"正規軍に入るつもりだったが……",
+						"I figured I was on a beeline for the army.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……どうしたモンかね。",
+						"But now that I'm like a month away from",
 						"NEW_LINE",
-						"本当にこれでいいのか",
+						"graduation, I'm starting to second guess",
 						"NEW_LINE",
-						"分からなくなってきやがった。",
+						"myself. Do I really wanna do this?",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x7f9",
+				"LABEL": "0x71a",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x7fa",
+				"LABEL": "0x71b",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x7fc",
+				"LABEL": "0x71d",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -619,26 +619,26 @@
 				]
 			},
 			{
-				"LABEL": "0x813",
+				"LABEL": "0x734",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x815",
+				"LABEL": "0x736",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x817",
+				"LABEL": "0x738",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0x818",
+				"LABEL": "0x739",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x81d",
+				"LABEL": "0x73e",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -648,15 +648,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x82b"
+				"TO_LABEL": "0x74c"
 			},
 			{
-				"LABEL": "0x826",
+				"LABEL": "0x747",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x82b",
+				"LABEL": "0x74c",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -666,10 +666,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x96b"
+				"TO_LABEL": "0x893"
 			},
 			{
-				"LABEL": "0x834",
+				"LABEL": "0x755",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -682,10 +682,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x85e"
+				"TO_LABEL": "0x77f"
 			},
 			{
-				"LABEL": "0x83e",
+				"LABEL": "0x75f",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					0
@@ -695,12 +695,12 @@
 				]
 			},
 			{
-				"LABEL": "0x859",
+				"LABEL": "0x77a",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x948"
+				"TO_LABEL": "0x870"
 			},
 			{
-				"LABEL": "0x85e",
+				"LABEL": "0x77f",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
@@ -708,19 +708,19 @@
 				]
 			},
 			{
-				"LABEL": "0x873",
+				"LABEL": "0x794",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x876",
+				"LABEL": "0x797",
 				"TYPE": "0x16",
 				"UNK": "0A0000"
 			},
 			{
-				"LABEL": "0x87a",
+				"LABEL": "0x79b",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -729,43 +729,45 @@
 				]
 			},
 			{
-				"LABEL": "0x887",
+				"LABEL": "0x7a8",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x88a",
+				"LABEL": "0x7ab",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"生意気なパトリックの野郎も、",
+						"Patrick was a real piece of shit when",
 						"NEW_LINE",
-						"ちっとはいい顔になったみてえだ。",
+						"I first met him, but he's gotten a",
+						"NEW_LINE",
+						"little bit better since then. Kinda.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"まあ、これで部に思い残すことも",
+						"Still, looks like we'll be able to leave",
 						"NEW_LINE",
-						"ようやく無くなってきた感じか。",
+						"the club in decent hands now, at least.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x947",
+				"LABEL": "0x86f",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x948",
+				"LABEL": "0x870",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x94a",
+				"LABEL": "0x872",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -775,26 +777,26 @@
 				]
 			},
 			{
-				"LABEL": "0x961",
+				"LABEL": "0x889",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x963",
+				"LABEL": "0x88b",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x965",
+				"LABEL": "0x88d",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0x966",
+				"LABEL": "0x88e",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x96b",
+				"LABEL": "0x893",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -804,15 +806,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x979"
+				"TO_LABEL": "0x8a1"
 			},
 			{
-				"LABEL": "0x974",
+				"LABEL": "0x89c",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x979",
+				"LABEL": "0x8a1",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -822,15 +824,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x987"
+				"TO_LABEL": "0x8af"
 			},
 			{
-				"LABEL": "0x982",
+				"LABEL": "0x8aa",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x987",
+				"LABEL": "0x8af",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -840,15 +842,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x995"
+				"TO_LABEL": "0x8bd"
 			},
 			{
-				"LABEL": "0x990",
+				"LABEL": "0x8b8",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x995",
+				"LABEL": "0x8bd",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -858,15 +860,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x9a3"
+				"TO_LABEL": "0x8cb"
 			},
 			{
-				"LABEL": "0x99e",
+				"LABEL": "0x8c6",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x9a3",
+				"LABEL": "0x8cb",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -876,15 +878,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x9b1"
+				"TO_LABEL": "0x8d9"
 			},
 			{
-				"LABEL": "0x9ac",
+				"LABEL": "0x8d4",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x9b1",
+				"LABEL": "0x8d9",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -894,10 +896,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x9ba"
+				"TO_LABEL": "0x8e2"
 			},
 			{
-				"LABEL": "0x9ba",
+				"LABEL": "0x8e2",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -931,10 +933,10 @@
 						"CONTROL": 9
 					}
 				],
-				"TO_LABEL": "0xc5d"
+				"TO_LABEL": "0xb9c"
 			},
 			{
-				"LABEL": "0x9cd",
+				"LABEL": "0x8f5",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
@@ -942,19 +944,19 @@
 				]
 			},
 			{
-				"LABEL": "0x9e2",
+				"LABEL": "0x90a",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x9e5",
+				"LABEL": "0x90d",
 				"TYPE": "0x16",
 				"UNK": "0A0000"
 			},
 			{
-				"LABEL": "0x9e9",
+				"LABEL": "0x911",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -963,41 +965,43 @@
 				]
 			},
 			{
-				"LABEL": "0x9f6",
+				"LABEL": "0x91e",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x9f9",
+				"LABEL": "0x921",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"さあて、俺も今のうちに",
+						"Right. Gonna have to make sure my",
 						"NEW_LINE",
-						"武器の手入れをしておかねえとな。",
+						"blade's in perfect condition while I can.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……クク、ナメた貴族連合軍の奴らを",
+						"...Heh. It's been a long time coming, but",
 						"NEW_LINE",
-						"ブチのめす、またとない機会だ。",
+						"those nobles are gonna get what they",
+						"NEW_LINE",
+						"deserve. They won't even see us coming.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"今までの鬱憤を",
+						"It's time to make them pay for all the",
 						"NEW_LINE",
-						"存分に晴らしてやらあ……！",
+						"shit they've pulled!",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0xaf2",
+				"LABEL": "0xa26",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0xaf3",
+				"LABEL": "0xa27",
 				"TYPE": "0x3D",
 				"NAME_ID": 118,
 				"CONTROLS": [
@@ -1006,14 +1010,14 @@
 				]
 			},
 			{
-				"LABEL": "0xafa",
+				"LABEL": "0xa2e",
 				"TYPE": "0x10",
 				"UNK": [
 					500
 				]
 			},
 			{
-				"LABEL": "0xafd",
+				"LABEL": "0xa31",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 118,
@@ -1022,48 +1026,52 @@
 				]
 			},
 			{
-				"LABEL": "0xb0a",
+				"LABEL": "0xa3e",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0xb0d",
+				"LABEL": "0xa41",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 118,
 				"DIALOG": {
 					"STRINGS": [
-						"ふふ、どうどうロギンス君。",
+						"Heehee. Careful now, Loggins. That scary",
 						"NEW_LINE",
-						"１年の時みたいに顔が怖いわよ？",
+						"expression you used to wear all the time",
+						"NEW_LINE",
+						"as a first year has come back.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"先輩らしく、あくまで優雅に",
+						"We second years need to conduct ourselves",
 						"NEW_LINE",
-						"さりげな～く引導を渡さなくちゃ㈱",
+						"calmly and gracefully even while slaying",
+						"NEW_LINE",
+						"our foes. ㈱",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0xbc1",
+				"LABEL": "0xb18",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0xbc2",
+				"LABEL": "0xb19",
 				"TYPE": "0x3B",
 				"UNK": "000006000000000000"
 			},
 			{
-				"LABEL": "0xbcc",
+				"LABEL": "0xb23",
 				"TYPE": "0x10",
 				"UNK": [
 					1300
 				]
 			},
 			{
-				"LABEL": "0xbcf",
+				"LABEL": "0xb26",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 0,
@@ -1072,31 +1080,29 @@
 				]
 			},
 			{
-				"LABEL": "0xbdd",
+				"LABEL": "0xb34",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0xbe0",
+				"LABEL": "0xb37",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 0,
 				"DIALOG": {
 					"STRINGS": [
-						"#K（どちらの先輩も",
-						"NEW_LINE",
-						"  頼もしくて恐ろしいな……）",
+						"#K(You both seem pretty damn scary to me...)",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0xc29",
+				"LABEL": "0xb68",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0xc2a",
+				"LABEL": "0xb69",
 				"TYPE": "0x3D",
 				"NAME_ID": 118,
 				"CONTROLS": [
@@ -1105,27 +1111,27 @@
 				]
 			},
 			{
-				"LABEL": "0xc31",
+				"LABEL": "0xb70",
 				"TYPE": "0xC",
 				"UNK": [
 					10059
 				]
 			},
 			{
-				"LABEL": "0xc34",
+				"LABEL": "0xb73",
 				"TYPE": "0x87",
 				"CONTROL": 0,
 				"UNK": "5F002000"
 			},
 			{
-				"LABEL": "0xc3a",
+				"LABEL": "0xb79",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0xc3c",
+				"LABEL": "0xb7b",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -1135,26 +1141,26 @@
 				]
 			},
 			{
-				"LABEL": "0xc53",
+				"LABEL": "0xb92",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0xc55",
+				"LABEL": "0xb94",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0xc57",
+				"LABEL": "0xb96",
 				"TYPE": "RETURN"
 			},
 			{
-				"LABEL": "0xc58",
+				"LABEL": "0xb97",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c77"
+				"TO_LABEL": "0x1b44"
 			},
 			{
-				"LABEL": "0xc5d",
+				"LABEL": "0xb9c",
 				"TYPE": "0x14",
 				"UNK": "FEFF030A",
 				"STRINGS": [
@@ -1162,19 +1168,19 @@
 				]
 			},
 			{
-				"LABEL": "0xc72",
+				"LABEL": "0xbb1",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0xc75",
+				"LABEL": "0xbb4",
 				"TYPE": "0x16",
 				"UNK": "0A0000"
 			},
 			{
-				"LABEL": "0xc79",
+				"LABEL": "0xbb8",
 				"TYPE": "0x12",
 				"UNK": [
 					0
@@ -1192,7 +1198,7 @@
 				]
 			},
 			{
-				"LABEL": "0xc82",
+				"LABEL": "0xbc1",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1211,10 +1217,10 @@
 						"CONTROL": 7
 					}
 				],
-				"TO_LABEL": "0x1c77"
+				"TO_LABEL": "0x1b44"
 			},
 			{
-				"LABEL": "0xc90",
+				"LABEL": "0xbcf",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					0,
@@ -1223,19 +1229,19 @@
 				"UNK": "000000000042"
 			},
 			{
-				"LABEL": "0xc99",
+				"LABEL": "0xbd8",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"話をする"
+					"Talk"
 				],
 				"UNK": "0000"
 			},
 			{
-				"LABEL": "0xcab",
+				"LABEL": "0xbe2",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1245,39 +1251,39 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xce6"
+				"TO_LABEL": "0xc14"
 			},
 			{
-				"LABEL": "0xcb4",
+				"LABEL": "0xbeb",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"★剣術訓練を行う（ＬＶ１）"
+					"★Close-combat Training (LV1)"
 				],
 				"UNK": "0100"
 			},
 			{
-				"LABEL": "0xce1",
+				"LABEL": "0xc0f",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0xd10"
+				"TO_LABEL": "0xc35"
 			},
 			{
-				"LABEL": "0xce6",
+				"LABEL": "0xc14",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"剣術訓練を行う（ＬＶ１）"
+					"Close-combat Training (LV1)"
 				],
 				"UNK": "0100"
 			},
 			{
-				"LABEL": "0xd10",
+				"LABEL": "0xc35",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1287,10 +1293,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xd7e"
+				"TO_LABEL": "0xc91"
 			},
 			{
-				"LABEL": "0xd19",
+				"LABEL": "0xc3e",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1300,39 +1306,39 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xd54"
+				"TO_LABEL": "0xc70"
 			},
 			{
-				"LABEL": "0xd22",
+				"LABEL": "0xc47",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"★剣術訓練を行う（ＬＶ２）"
+					"★Close-combat Training (LV2)"
 				],
 				"UNK": "0200"
 			},
 			{
-				"LABEL": "0xd4f",
+				"LABEL": "0xc6b",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0xd7e"
+				"TO_LABEL": "0xc91"
 			},
 			{
-				"LABEL": "0xd54",
+				"LABEL": "0xc70",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"剣術訓練を行う（ＬＶ２）"
+					"Close-combat Training (LV2)"
 				],
 				"UNK": "0200"
 			},
 			{
-				"LABEL": "0xd7e",
+				"LABEL": "0xc91",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1342,10 +1348,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xdec"
+				"TO_LABEL": "0xced"
 			},
 			{
-				"LABEL": "0xd87",
+				"LABEL": "0xc9a",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1355,51 +1361,51 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xdc2"
+				"TO_LABEL": "0xccc"
 			},
 			{
-				"LABEL": "0xd90",
+				"LABEL": "0xca3",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"★剣術訓練を行う（ＬＶ３）"
+					"★Close-combat Training (LV3)"
 				],
 				"UNK": "0300"
 			},
 			{
-				"LABEL": "0xdbd",
+				"LABEL": "0xcc7",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0xdec"
+				"TO_LABEL": "0xced"
 			},
 			{
-				"LABEL": "0xdc2",
+				"LABEL": "0xccc",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"剣術訓練を行う（ＬＶ３）"
+					"Close-combat Training (LV3)"
 				],
 				"UNK": "0300"
 			},
 			{
-				"LABEL": "0xdec",
+				"LABEL": "0xced",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					1,
 					0
 				],
 				"STRINGS": [
-					"やめる"
+					"Cancel"
 				],
 				"UNK": "0400"
 			},
 			{
-				"LABEL": "0xdfb",
+				"LABEL": "0xcf9",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					2,
@@ -1408,7 +1414,7 @@
 				"UNK": "01FFFFFFFF00"
 			},
 			{
-				"LABEL": "0xe04",
+				"LABEL": "0xd02",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					4,
@@ -1417,7 +1423,7 @@
 				"UNK": "00"
 			},
 			{
-				"LABEL": "0xe08",
+				"LABEL": "0xd06",
 				"TYPE": "0x6B",
 				"CONTROLS": [
 					3,
@@ -1425,7 +1431,7 @@
 				]
 			},
 			{
-				"LABEL": "0xe0b",
+				"LABEL": "0xd09",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1480,10 +1486,10 @@
 						"CONTROL": 11
 					}
 				],
-				"TO_LABEL": "0xe3c"
+				"TO_LABEL": "0xd3a"
 			},
 			{
-				"LABEL": "0xe2b",
+				"LABEL": "0xd29",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					0
@@ -1493,12 +1499,12 @@
 				]
 			},
 			{
-				"LABEL": "0xe37",
+				"LABEL": "0xd35",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0xe3c",
+				"LABEL": "0xd3a",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1517,10 +1523,10 @@
 						"CONTROL": 2
 					}
 				],
-				"TO_LABEL": "0xe59"
+				"TO_LABEL": "0xd57"
 			},
 			{
-				"LABEL": "0xe4a",
+				"LABEL": "0xd48",
 				"TYPE": "0x12",
 				"UNK": [
 					0
@@ -1541,12 +1547,12 @@
 				]
 			},
 			{
-				"LABEL": "0xe54",
+				"LABEL": "0xd52",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0xe59",
+				"LABEL": "0xd57",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1565,10 +1571,10 @@
 						"CONTROL": 2
 					}
 				],
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0xe67",
+				"LABEL": "0xd65",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1578,10 +1584,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xf3a"
+				"TO_LABEL": "0xe06"
 			},
 			{
-				"LABEL": "0xe70",
+				"LABEL": "0xd6e",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1590,41 +1596,39 @@
 				]
 			},
 			{
-				"LABEL": "0xe7d",
+				"LABEL": "0xd7b",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0xe80",
+				"LABEL": "0xd7e",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"とにかく、俺とフリーデルも",
+						"Scary expression or no, Friedel and I are",
 						"NEW_LINE",
-						"パトリックたちと戦場に下りるぜ。",
+						"gonna go down to fight with Patrick, too.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"クク、ナメた貴族連合軍の奴らを",
-						"NEW_LINE",
-						"今こそシメてやらねえとな。",
+						"Heh. It's time to make the alliance pay.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0xf34",
+				"LABEL": "0xe00",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0xf35",
+				"LABEL": "0xe01",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0xf3a",
+				"LABEL": "0xe06",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1634,15 +1638,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0xf48"
+				"TO_LABEL": "0xe14"
 			},
 			{
-				"LABEL": "0xf43",
+				"LABEL": "0xe0f",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0xf48",
+				"LABEL": "0xe14",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1652,10 +1656,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x1156"
+				"TO_LABEL": "0xfbf"
 			},
 			{
-				"LABEL": "0xf51",
+				"LABEL": "0xe1d",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1668,10 +1672,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1098"
+				"TO_LABEL": "0xf18"
 			},
 			{
-				"LABEL": "0xf5b",
+				"LABEL": "0xe27",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1680,55 +1684,53 @@
 				]
 			},
 			{
-				"LABEL": "0xf68",
+				"LABEL": "0xe34",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0xf6b",
+				"LABEL": "0xe37",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"おそらく《騎士団》とやらには",
+						"I'm guessing I know at least one of the",
 						"NEW_LINE",
-						"ア#2R・#イ#2R・#ツ#2R・#も加わってんだろうな。",
+						"members of that Order of the Lion...",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"今まで散々シメられた借りを",
+						"I'd love to go and pay her back for",
 						"NEW_LINE",
-						"返したいところだが……",
+						"beating me time and time again, but",
 						"NEW_LINE",
-						"今回は俺の出る幕じゃねえ。",
+						"this is your battle, not mine.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"後は任せたぜ。",
-						"NEW_LINE",
-						"気合を入れていけよ、お前ら。",
+						"Just don't underestimate her.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x108f",
+				"LABEL": "0xf0f",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1090",
+				"LABEL": "0xf10",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x1093",
+				"LABEL": "0xf13",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1151"
+				"TO_LABEL": "0xfba"
 			},
 			{
-				"LABEL": "0x1098",
+				"LABEL": "0xf18",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1737,41 +1739,41 @@
 				]
 			},
 			{
-				"LABEL": "0x10a5",
+				"LABEL": "0xf25",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x10a8",
+				"LABEL": "0xf28",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"パトリックの野郎も侮れねえが、",
+						"Patrick's a pretty solid fighter,",
 						"NEW_LINE",
-						"ア#2R・#イ#2R・#ツ#2R・#だけは別格だ。",
+						"but he's got nothing on her.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"後は任せたぜ。",
+						"Good luck if you do end up crossing",
 						"NEW_LINE",
-						"気合を入れていけよ、お前ら。",
+						"swords with her, though. You'll need it.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1150",
+				"LABEL": "0xfb9",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1151",
+				"LABEL": "0xfba",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x1156",
+				"LABEL": "0xfbf",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1781,10 +1783,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x13b3"
+				"TO_LABEL": "0x128a"
 			},
 			{
-				"LABEL": "0x115f",
+				"LABEL": "0xfc8",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1797,10 +1799,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1225"
+				"TO_LABEL": "0x1094"
 			},
 			{
-				"LABEL": "0x1169",
+				"LABEL": "0xfd2",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1809,43 +1811,45 @@
 				]
 			},
 			{
-				"LABEL": "0x1176",
+				"LABEL": "0xfdf",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1179",
+				"LABEL": "0xfe2",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"幼馴染への想い、か……",
+						"Alan's gotta clear his mind, but no",
 						"NEW_LINE",
-						"ま、邪念が払えなくても",
+						"matter how hard I push him, he just",
 						"NEW_LINE",
-						"仕方がねえか。",
+						"can't.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"兎にも角にも、アランも",
+						"At least he sees what he needs to do.",
 						"NEW_LINE",
-						"発展途上ってこったろう。",
+						"And he's growing as a person, if not",
+						"NEW_LINE",
+						"a swordsman.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x121f",
+				"LABEL": "0x108e",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1220",
+				"LABEL": "0x108f",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x13ae"
+				"TO_LABEL": "0x1285"
 			},
 			{
-				"LABEL": "0x1225",
+				"LABEL": "0x1094",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1858,10 +1862,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1310"
+				"TO_LABEL": "0x11ad"
 			},
 			{
-				"LABEL": "0x122f",
+				"LABEL": "0x109e",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1870,51 +1874,57 @@
 				]
 			},
 			{
-				"LABEL": "0x123c",
+				"LABEL": "0x10ab",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x123f",
+				"LABEL": "0x10ae",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"……幼馴染と再会できた途端に",
+						"I swear, as soon as he was reunited",
 						"NEW_LINE",
-						"剣のキレが良くなりやがった。",
+						"with his gal pal, his skill level shot",
+						"NEW_LINE",
+						"right up. ",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"ったく、色気づきやがって……",
+						"Who'd have thought that puppy love",
+						"NEW_LINE",
+						"was the secret sauce?",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"今までの俺のスパルタは",
+						"Kinda makes me feel like all the",
 						"NEW_LINE",
-						"何だったんだっての。",
+						"training I've been putting him",
+						"NEW_LINE",
+						"through was a big waste of time.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1307",
+				"LABEL": "0x11a4",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1308",
+				"LABEL": "0x11a5",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x130b",
+				"LABEL": "0x11a8",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x13ae"
+				"TO_LABEL": "0x1285"
 			},
 			{
-				"LABEL": "0x1310",
+				"LABEL": "0x11ad",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1923,41 +1933,43 @@
 				]
 			},
 			{
-				"LABEL": "0x131d",
+				"LABEL": "0x11ba",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1320",
+				"LABEL": "0x11bd",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"……まあ、剣の道には",
+						"...Still, if he's got something that",
 						"NEW_LINE",
-						"こういうのもアリか。",
+						"works for him, that's all that matters.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"守るものがあるからこそ",
+						"People don't get stronger if they don't",
 						"NEW_LINE",
-						"強くなれるってもんだしな。",
+						"something worth fighting for. Family,",
+						"NEW_LINE",
+						"country, girls... Whatever drives you.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x13ad",
+				"LABEL": "0x1284",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x13ae",
+				"LABEL": "0x1285",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x13b3",
+				"LABEL": "0x128a",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1967,10 +1979,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x15d3"
+				"TO_LABEL": "0x1489"
 			},
 			{
-				"LABEL": "0x13bc",
+				"LABEL": "0x1293",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -1983,10 +1995,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1506"
+				"TO_LABEL": "0x13e4"
 			},
 			{
-				"LABEL": "0x13c6",
+				"LABEL": "0x129d",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -1995,61 +2007,63 @@
 				]
 			},
 			{
-				"LABEL": "0x13d3",
+				"LABEL": "0x12aa",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x13d6",
+				"LABEL": "0x12ad",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"アルバレア公……",
+						"That son of a bitch... I can't believe",
 						"NEW_LINE",
-						"ど腐れのクソ貴族野郎が……！",
+						"he'd even TRY to pull this shit!",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"四大名門だか何だか知らんが、",
+						"I don't give a rat's ass how 'great' his",
 						"NEW_LINE",
-						"あんなふざけた焼き討ちなんぞ",
+						"house is, nobody sets fire to a town of",
 						"NEW_LINE",
-						"絶対に許しちゃならねえ。",
+						"innocent people and gets away with it!",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……いいか、絶対にしくじるな。",
+						"You guys are the best chance we've",
 						"NEW_LINE",
-						"万全の準備を整えていきやがれ。",
+						"got at making that bastard pay for this.",
+						"NEW_LINE",
+						"Do NOT screw this up.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x14f7",
+				"LABEL": "0x13d5",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x14f8",
+				"LABEL": "0x13d6",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x14fb",
+				"LABEL": "0x13d9",
 				"TYPE": "0x87",
 				"CONTROL": 0,
 				"UNK": "5F001000"
 			},
 			{
-				"LABEL": "0x1501",
+				"LABEL": "0x13df",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x15ce"
+				"TO_LABEL": "0x1484"
 			},
 			{
-				"LABEL": "0x1506",
+				"LABEL": "0x13e4",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2058,41 +2072,41 @@
 				]
 			},
 			{
-				"LABEL": "0x1513",
+				"LABEL": "0x13f1",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1516",
+				"LABEL": "0x13f4",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"チッ……俺ですらここまで",
+						"Ugh... I can't even remember the last",
 						"NEW_LINE",
-						"頭に血が上る事なんざ滅多にねえ。",
+						"time something made me THIS mad.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……いいか、絶対にしくじるな。",
+						"That asshole has to pay, and you guys",
 						"NEW_LINE",
-						"万全の準備を整えていきやがれ。",
+						"are gonna make sure he does.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x15cd",
+				"LABEL": "0x1483",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x15ce",
+				"LABEL": "0x1484",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x15d3",
+				"LABEL": "0x1489",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2102,10 +2116,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x17ad"
+				"TO_LABEL": "0x16da"
 			},
 			{
-				"LABEL": "0x15dc",
+				"LABEL": "0x1492",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2118,10 +2132,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x16fb"
+				"TO_LABEL": "0x162d"
 			},
 			{
-				"LABEL": "0x15e6",
+				"LABEL": "0x149c",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2130,53 +2144,59 @@
 				]
 			},
 			{
-				"LABEL": "0x15f3",
+				"LABEL": "0x14a9",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x15f6",
+				"LABEL": "0x14ac",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"ったく、力が入りすぎてやがるな。",
+						"Alan really needs to loosen up. Getting",
+						"NEW_LINE",
+						"all worked up like that can throw a whole",
+						"NEW_LINE",
+						"day of practice down the drain. I'd know.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"幼馴染の心配は分かるんだが、",
+						"I get that he's worried about his lady",
 						"NEW_LINE",
-						"剣を持ってるときは",
+						"and all, but when you're training, you",
 						"NEW_LINE",
-						"あれこれ考えるもんじゃねえ。",
+						"gotta focus on training and nothing else.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"こりゃ徹底的にシゴいて",
+						"Guess I've gotta work him so hard he won't",
 						"NEW_LINE",
-						"頭をカラッポにさせるしかねえな。",
+						"have the energy to worry about anything",
+						"NEW_LINE",
+						"else. Might as well pay your respects now.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x16f2",
+				"LABEL": "0x1624",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x16f3",
+				"LABEL": "0x1625",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x16f6",
+				"LABEL": "0x1628",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x17a8"
+				"TO_LABEL": "0x16d5"
 			},
 			{
-				"LABEL": "0x16fb",
+				"LABEL": "0x162d",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2185,41 +2205,41 @@
 				]
 			},
 			{
-				"LABEL": "0x1708",
+				"LABEL": "0x163a",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x170b",
+				"LABEL": "0x163d",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"フリーデルの奴のほうが",
+						"Friedel's way better at this kinda training",
 						"NEW_LINE",
-						"この手の指導は上手いんだが……",
+						"than I am, but I've just gotta make do.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……ま、いない奴のことを",
+						"Complaining about what you don't have's",
 						"NEW_LINE",
-						"言ってもしかたねえか。",
+						"just a waste of time.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x17a7",
+				"LABEL": "0x16d4",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x17a8",
+				"LABEL": "0x16d5",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x17ad",
+				"LABEL": "0x16da",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2229,10 +2249,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x1a55"
+				"TO_LABEL": "0x194e"
 			},
 			{
-				"LABEL": "0x17b6",
+				"LABEL": "0x16e3",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2245,10 +2265,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1952"
+				"TO_LABEL": "0x1845"
 			},
 			{
-				"LABEL": "0x17c0",
+				"LABEL": "0x16ed",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2257,60 +2277,58 @@
 				]
 			},
 			{
-				"LABEL": "0x17cd",
+				"LABEL": "0x16fa",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x17d0",
+				"LABEL": "0x16fd",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"アンゼリカの奴は、",
+						"Angelica's one of the strongest second",
 						"NEW_LINE",
-						"２年生でも１、２を争う達人だ。",
+						"years at the academy, bar none.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"素手の喧嘩#4Rステゴロ#なら",
+						"I don't think anyone alive could take",
 						"NEW_LINE",
-						"士官学院最強と言っていいだろう。",
+						"her in hand-to-hand combat, either.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"危ないことに巻き込まれても、",
+						"Even if she does get herself into trouble,",
 						"NEW_LINE",
-						"大抵は自分の力だけで何とかする……",
-						"NEW_LINE",
-						"そういうやつさ。",
+						"she sure as hell can get herself out of it.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……だから、あんまり心配しすぎるな。",
+						"...So seriously, stop freaking out about",
 						"NEW_LINE",
-						"あくまでも平常心でな。",
+						"her so much. Odds are she's just fine.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1949",
+				"LABEL": "0x183c",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x194a",
+				"LABEL": "0x183d",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x194d",
+				"LABEL": "0x1840",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1a50"
+				"TO_LABEL": "0x1949"
 			},
 			{
-				"LABEL": "0x1952",
+				"LABEL": "0x1845",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2319,46 +2337,48 @@
 				]
 			},
 			{
-				"LABEL": "0x195f",
+				"LABEL": "0x1852",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1962",
+				"LABEL": "0x1855",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"トワやジョルジュもそうだが、",
+						"Angelica's gonna be just fine. You, Towa,",
 						"NEW_LINE",
-						"お前らも心配しすぎるなよ。",
+						"and George all need to chill. ",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"……ま、腕に自信がねえなら",
+						"...But if you're stressing out about your",
 						"NEW_LINE",
-						"鍛えなおしていくのも手だろう。",
+						"combat skills, you've come to the right",
+						"NEW_LINE",
+						"place.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"いつでもしごいてやるから",
+						"I'll give you a workout so tough that",
 						"NEW_LINE",
-						"遠慮なく言えよ。",
+						"the war out there feels like recess.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1a4f",
+				"LABEL": "0x1948",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1a50",
+				"LABEL": "0x1949",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x1a55",
+				"LABEL": "0x194e",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2368,10 +2388,10 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x1a5e",
+				"LABEL": "0x1957",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2381,15 +2401,15 @@
 						]
 					}
 				],
-				"TO_LABEL": "0x1a6e"
+				"TO_LABEL": "0x1967"
 			},
 			{
-				"LABEL": "0x1a69",
+				"LABEL": "0x1962",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x1a6e",
+				"LABEL": "0x1967",
 				"TYPE": "GOTO5",
 				"TABLE": [
 					{
@@ -2402,10 +2422,10 @@
 						"CONTROL": 8
 					}
 				],
-				"TO_LABEL": "0x1b9a"
+				"TO_LABEL": "0x1a7f"
 			},
 			{
-				"LABEL": "0x1a78",
+				"LABEL": "0x1971",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2414,36 +2434,38 @@
 				]
 			},
 			{
-				"LABEL": "0x1a85",
+				"LABEL": "0x197e",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1a88",
+				"LABEL": "0x1981",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"ま、訓練指導を引き受けたからには",
+						"I don't half-ass anything I do. Come",
 						"NEW_LINE",
-						"とことんまでシゴいてやるとするさ。",
+						"train with me, and you WILL get results.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"フェンシング部仕込みのスパルタ、",
+						"I mean, you're gonna wish you were dead",
 						"NEW_LINE",
-						"覚悟してかかれよ一年坊主？",
+						"along the way, too, but that's how we do",
+						"NEW_LINE",
+						"things in the Fencing Club. Just be ready.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1b4b",
+				"LABEL": "0x1a50",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1b4c",
+				"LABEL": "0x1a51",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 0,
@@ -2452,41 +2474,41 @@
 				]
 			},
 			{
-				"LABEL": "0x1b5a",
+				"LABEL": "0x1a5f",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1b5d",
+				"LABEL": "0x1a62",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 0,
 				"DIALOG": {
 					"STRINGS": [
-						"#Kお、お手柔らかにお願いします。",
+						"#KI-I'll try...",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1b91",
+				"LABEL": "0x1a76",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1b92",
+				"LABEL": "0x1a77",
 				"TYPE": "0xC",
 				"UNK": [
 					7184
 				]
 			},
 			{
-				"LABEL": "0x1b95",
+				"LABEL": "0x1a7a",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0x1c72"
+				"TO_LABEL": "0x1b3f"
 			},
 			{
-				"LABEL": "0x1b9a",
+				"LABEL": "0x1a7f",
 				"TYPE": "SET_NAME_ID",
 				"CONTROL": 4,
 				"NAME_ID": 95,
@@ -2495,60 +2517,60 @@
 				]
 			},
 			{
-				"LABEL": "0x1ba7",
+				"LABEL": "0x1a8c",
 				"TYPE": "0x10",
 				"UNK": [
 					0
 				]
 			},
 			{
-				"LABEL": "0x1baa",
+				"LABEL": "0x1a8f",
 				"TYPE": "MESSAGE",
 				"NAME_ID": 95,
 				"DIALOG": {
 					"STRINGS": [
-						"せっかく設備が整ってんだ。",
+						"Now that I'm in charge around here,",
 						"NEW_LINE",
-						"アランのやつも、そのうち",
-						"NEW_LINE",
-						"ちゃんと鍛え直してやらねえとな。",
+						"it's time to whip Alan back into shape.",
 						"KEY_WAIT",
 						"CLEAR_TEXT",
-						"クク、何やら腕が鳴ってきやがったぜ。",
+						"Heh. Nothing motivates like a job worth",
+						"NEW_LINE",
+						"doing. He's not gonna know what hit him.",
 						"KEY_WAIT"
 					]
 				}
 			},
 			{
-				"LABEL": "0x1c64",
+				"LABEL": "0x1b31",
 				"TYPE": "CLEAN_TEXT_BOX"
 			},
 			{
-				"LABEL": "0x1c65",
+				"LABEL": "0x1b32",
 				"TYPE": "0x3B",
 				"UNK": "000006000000000000"
 			},
 			{
-				"LABEL": "0x1c6f",
+				"LABEL": "0x1b3c",
 				"TYPE": "0x10",
 				"UNK": [
 					1300
 				]
 			},
 			{
-				"LABEL": "0x1c72",
+				"LABEL": "0x1b3f",
 				"TYPE": "GOTO3",
-				"TO_LABEL": "0xc82"
+				"TO_LABEL": "0xbc1"
 			},
 			{
-				"LABEL": "0x1c77",
+				"LABEL": "0x1b44",
 				"TYPE": "0x17",
 				"UNK": [
 					10
 				]
 			},
 			{
-				"LABEL": "0x1c79",
+				"LABEL": "0x1b46",
 				"TYPE": "JUMP_TO_FUNCTION",
 				"UNK": [
 					10
@@ -2558,17 +2580,17 @@
 				]
 			},
 			{
-				"LABEL": "0x1c90",
+				"LABEL": "0x1b5d",
 				"TYPE": "0x4A",
 				"CONTROL": 46
 			},
 			{
-				"LABEL": "0x1c92",
+				"LABEL": "0x1b5f",
 				"TYPE": "0x4A",
 				"CONTROL": 54
 			},
 			{
-				"LABEL": "0x1c94",
+				"LABEL": "0x1b61",
 				"TYPE": "RETURN"
 			}
 		]
