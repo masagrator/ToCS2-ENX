@@ -33,8 +33,6 @@ ptrdiff_t returnInstructionOffset(uintptr_t LR) {
 	return LR - NSO_main_start;
 }
 
-int8_t EngCheck = 0;
-bool enSelected = false;
 bool BlockButtons = false;
 
 nn::hid::NpadHandheldState out;
