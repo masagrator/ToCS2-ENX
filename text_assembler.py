@@ -231,6 +231,10 @@ def GenerateData(entry):
 		
 		case "LinkAbList" | "MG05Root" | "MasterQuartzStatus" | "MasterQuartzDummy" | "MasterQuartzDummy2" | "NaviIconTableData" | "QSCoolVoice" | "ShopConv" | "TitleData" | "MG05Target" | "CompHelpData" | "condition" | "InfItemSet" | "MissionData" | "OverRisePoint" | "BattleVoiceData_A" | "BattleVoiceData_B" | "BattleVoiceData_C" | "BattleVoiceData_D" | "BattleVoiceData_E" | "BattleVoiceData_F" | "BattleVoiceData_G" | "CheckEquipFlag":
 			temp.append(bytes.fromhex(entry["UNK"]))
+		
+		case "VoiceTimingInfo":
+			temp.append(numpy.uint32(entry["LENGTH_FACTOR"]))
+			temp.append(numpy.uint32(entry["LOOPS"]))
 
 		case "VoiceTiming":
 			temp.append(numpy.uint16(entry["ID"]))
