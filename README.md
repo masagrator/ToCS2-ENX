@@ -11,6 +11,7 @@ Main changes:
 - Complete translation of game, textures and movies
 - Removed completely fixed kernings for better text rendering
 - Many custom text tweaks for better readability and blocking text from overflowing
+- English dubbing available as separate download in Releases
 - Added custom menu (press R in title menu to get access). Settings are saved to sd:/config/ToCS2/subsdk9.save. Options:
   - FPS 30 or 60, 
   - changing rendering resolution from 360p up to 1080p,
@@ -40,3 +41,6 @@ Special thanks to:
 - thesupersonic16 for PKG unpacker (not directly involved with this project)</br>
  https://github.com/thesupersonic16/PKGTool
 - XSEED North American Translation Team for bringing the best translation possible to West (not directly involved with this project). Full credits are available in Ending video. 
+- babaros for providing working audio files for English dubbing
+- Gota7 for developing Citric Composer (not directly involved with this project)</br>
+https://github.com/Gota7/Citric-Composer
