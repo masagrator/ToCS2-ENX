@@ -4,6 +4,8 @@ import json
 import sys
 import numpy
 
+DUB = "-dub" in sys.argv[1:]
+
 def WriteDialog(dialog):
 	entry = []
 	for i in range(0, len(dialog["STRINGS"])):
@@ -28,11 +30,8 @@ def WriteDialog(dialog):
 				entry.append(numpy.uint8(0x10))
 				entry.append(numpy.uint16(int(dialog["STRINGS"][i].replace("ITEM_ID: ", ""))))
 			case "VOICE":
-				# Since we don't support currently English dubbing,
-				# we need to cut all >=60000 IDs to get proper sound
-				# when no voice file is played.
 				ID = int(dialog["STRINGS"][i].replace("VOICE_FILE_ID: ", ""))
-				if (ID < 60000):
+				if ((ID < 60000) or DUB):
 					entry.append(numpy.uint8(0x11))
 					entry.append(numpy.uint32(ID))
 			case "CMD18":
